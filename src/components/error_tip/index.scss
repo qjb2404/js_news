@@ -1,0 +1,24 @@
+.error-tip {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 3;
+	margin: -4rem 0 0 -4rem;
+	width: 8rem;
+	height: 11rem;
+
+	img {
+		width: 6rem;
+		height: 6rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 1.4rem;
+		color: #999;
+	}
+}
